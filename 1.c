@@ -6,7 +6,7 @@ int main(void){
   printf("n = ");
   scanf("%d", &n);
 
-  if( n & 2 == 0 ){
+  if( n & 1 == 1 ){
     printf("%d は偶数です\n", n);
   }
   return 0;
